@@ -1,0 +1,59 @@
+.navbar{
+background: #3F5EFB;
+background: radial-gradient(circle, rgba(252, 70, 107, 1) 99%);
+}
+.section2{
+    margin-top: 9rem;
+}
+.section2{
+    background: #3F5EFB;
+background: radial-gradient(circle, rgba(252, 70, 107, 1) 99%);
+overflow: hidden;
+}
+.dogs-nearby{
+    font-size: 60px;
+    line-height: 1.2;
+    text-align: center;
+}
+.buttons{
+    margin: 55px;
+    text-align: center;
+}
+.image-tilt img{
+    transform: rotate(10deg);
+    transition: 0.3s;
+    display: inline-block;
+    width: 650px;
+    height: 400px;
+    object-fit: cover;
+}
+.correct-icon i{
+    font-size: 55px;
+    margin-left: 35%;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.font-size{
+    font-size: 55px;
+    color: palevioletred;
+    opacity: 0.8;
+    padding: 10px;
+}
+.font-size:hover{
+    font-size: 60px;
+    color: palevioletred;
+    opacity: 1;
+}
+.card-body .card-title{
+    font-weight: 900;
+}
+.text-center{
+    font-weight: 800;
+}
+.pink-container .container{
+    background-color: rgba(252, 70, 107, 1) 99%;
+}
+footer{
+    margin-top:20px;
+    padding: 50px;
+}

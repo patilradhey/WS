@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Result</title>
+  </head>
+  <body>
+    <h1> Result</h1>
+
+    <lable> Enter Student Name </lable>
+    <input type="text" placeholder="enter name" id="name" required />
+    <br> <br>
+    <lable> Enter marks for English</lable>
+    <input type="number" min="0" max="100" id="english" required/>
+    <br> <br>
+    <lable> Enter marks for Maths</lable>
+    <input type="number" min="0" max="100" id="maths" required/>
+    <br> <br>
+    <lable> Enter marks for History</lable>
+    <input type="number" min="0" max="100" id="history" required/>
+    <br> <br>
+
+    <button onclick="getResult()"> Show Result </button>
+    <h1 id="result"> </h1>
+
+    <script>
+        function getPercentage(s1,s2,s3){
+            return (s1+ s2+s3)/300 *100
+        }
+
+        function getResult(){
+            const name1 = document.getElementById("name").value
+            let engMarks = Number(document.getElementById("english").value)
+            let mathMarks = Number(document.getElementById("maths").value)
+            let hisMarks = Number(document.getElementById("history").value)
+
+            percentage = getPercentage(engMarks,mathMarks,hisMarks).toFixed(2)
+
+            document.getElementById("result").innerHTML = name1 +"Your percentage :"+ percentage
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>

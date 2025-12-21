@@ -1,0 +1,83 @@
+/* NavBar */
+.navbarNav{
+    margin: 200px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navbarNav{
+    display: flex;
+    justify-content: center;
+}
+
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+
+
+.customCoroImg{
+    width: 100%;
+    height: 600px;
+}
+
+
+/* AboutUs */
+.aboutUS{
+    background-color: bisque;
+}
+
+.customaboutUS Img{
+    width: 90%;
+    height: 480px;
+    display: inline-block;
+    margin: 20px auto;
+}
+ 
+.customContent{
+    padding: 3rem;
+}
+
+.customContent h2{
+    font-weight: 700;
+}
+
+.aboutUsImg:hover{
+    margin: 1rem;
+    transform:translateZ(40px);
+}
+
+.text-decoration li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.customBTN{
+    /* background-color: rgb(152, 247, 108); */
+    border: 0;
+    padding: 10px 20px;
+    display: inline-block;
+    /* margin-left: 1rem; */
+}
+
+/* Cards */
+.card{
+    height: 100%;
+    width: 100%;
+    max-width: 18rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-head img{
+   height: 286px ;
+}
+
+.card:hover{
+    margin: 1rem;
+    transform:translateZ(40px);
+}

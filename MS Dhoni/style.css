@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(227 231 188 / 69%);
+}
+
+
+/* nav bar */
+nav{
+    /* background-color: beige; */
+    height: 50px;
+}
+.navUL{
+    list-style-type: none;
+    width: 50%;
+    margin: 20px auto;
+}
+.navItem{
+    display: inline-block;
+    margin-left: 2.9rem;
+}
+
+.navLink:link{
+    /* background-color: green; */
+    text-decoration: none;
+    /* padding: 5px 10px; */
+}
+.navLink:hover{
+    background-color: rgb(201, 255, 201);
+    color: white;
+}
+.navLink:active{
+    color: green;
+    background-color: white;
+}
+.navLink:visited{
+    /* background-color: green; */
+    color: green;
+}
+
+/* Heading Css */
+
+.headingOne{
+    background-color: rgb(192, 189, 30);
+    
+}
+
+.heroSectionClass{
+    /* background-color: rgb(226, 207, 207); */
+    display: flex;
+    min-height: 70vh;
+}
+
+.leftSide{
+    flex: 2;
+    padding: 70px;
+
+}
+
+.rightSide{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+     /* padding-left: 20%; */
+}
+.imgHeroSec{
+    width: 68%;
+    height: 70%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.leftPara{
+    width: 60%;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.leftPara p span{
+    color: rgb(0, 0, 0);
+    /* text-shadow: 2px 2px 3px black; */
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.leftPara p{
+    width: 80%;
+
+}
+
+.heading{
+    display: flex;
+    color: rgb(252, 8, 8);
+    text-shadow: 2px 2px 3px black;
+    /* float: left; */
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    justify-content: left;
+    /* padding: 30px; */
+}
+.logo{
+      display: flex;
+    color: rgb(252, 8, 8);
+    text-shadow: 2px 2px 3px black;
+    /* float: left; */
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    justify-content: left;
+    width: 100%;
+}
+
+.achiv{
+    display: flex;
+    color: rgb(252, 8, 8);
+    text-shadow: 2px 2px 3px black;
+    /* float: left; */
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    justify-content: left;
+    padding-left: 30px ;
+}
+
+table,td,th{
+    border: 1px solid black;
+}
+th,yd{
+    padding: 5px;
+}
+th{
+    text-align: left;
+}
+
+.heroSecBTN{
+    font-size: 16px;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.heroSecBTN:hover{
+    font-size: 18px;
+    background-color: bisque;
+}
+
+.perInfo{
+    display: flex;
+    color: rgb(252, 8, 8);
+    text-shadow: 2px 2px 3px black;
+    /* float: left; */
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    justify-content: left;
+    padding-left: 30px ;
+}
+.info-table{
+    margin-left: 90px;
+}
+
+table,tr,td{
+    border: 1px solid black;
+}
+tr,yd{
+    padding: 5px;
+}
+tr{
+    text-align: left;
+}
+
+.imgGallery{
+    display: flex;
+    color: rgb(252, 8, 8);
+    text-shadow: 2px 2px 3px black;
+    /* float: left; */
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    justify-content: left;
+    padding-left: 30px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.imageGallery{
+     display: grid;
+     width: 700px;
+     height: 500px;
+     margin: 10px auto;
+}
+.imgOne{
+    grid-row-start: 1;
+    grid-row-end:3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.imgTwo{
+        grid-row-start: 1;
+    grid-row-end:4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.imgTHREE{
+        grid-row-start: 3;
+    grid-row-end:5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.imgFOUR{
+            grid-row-start: 4;
+    grid-row-end:5;
+    grid-column-start: 3;
+    grid-column-end: 4; 
+}
+
+.imgFIVE{
+                grid-row-start: 4;
+    grid-row-end:5;
+    grid-column-start: 4;
+    grid-column-end: 5; 
+}
+
+.imageGallery img{
+    width: 100%;
+    height: 100%;
+}
+

@@ -1,0 +1,30 @@
+.navbarNav{
+    margin: 200px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+
+.lastDiv{
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.lastFooter{
+    background-color: blue;
+    
+}
+
+.card{
+    
+}

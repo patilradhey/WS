@@ -1,0 +1,51 @@
+.socialicons{
+    margin-left: 10px;
+}
+h3{
+    color: #666;
+}
+
+.container-fluid{
+    background-color: #100f1a;
+}
+
+.cards_display{
+    display: flex;
+}
+.card-body .text{
+    color: #0C0747;
+}
+.card-body i{
+    color: #0C0747;
+}
+#skin_health{
+    border-left: 5px solid white;
+    padding-left: 15px;
+}
+ .text-center a{
+    color: #0C0747;
+    text-decoration: none;
+ }
+ .container h1{
+    color: #0C0747;
+ }
+
+ section{
+    background-color: #1a2c4c;
+ }
+
+ .card h4{
+    color: #0C0747;
+ }
+ .highlight-card{
+    transition: box-shadow 0.3s ease;
+ }
+ .highlight-card:hover{
+    border-bottom: 10px solid #b69316;
+}
+.top-bar{
+    background-color: #0C0747;
+}
+#footer{
+    background-color: white;
+}
