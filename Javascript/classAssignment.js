@@ -48,7 +48,7 @@
 // 5) loginCheck 
 
 function loginCheck(userName, password){
-    if(userName != null){
+    if(userName != null && userName != ""){
         if(password != null){
             return "Login Successfull"
         }
@@ -61,4 +61,5 @@ function loginCheck(userName, password){
     }
 }
 
-console.log(loginCheck("Radhey","rad@123"))
+// console.log(loginCheck("Radhey","rad@123"))
+console.log(loginCheck("","123456"))
