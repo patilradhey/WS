@@ -47,19 +47,59 @@
 
 // 5) loginCheck 
 
-function loginCheck(userName, password){
-    if(userName != null && userName != ""){
-        if(password != null){
-            return "Login Successfull"
-        }
-        else{
-            return "Password Required"
-        }
-    }
-    else{
-        return "UserName Required"
-    }
-}
+// function loginCheck(userName, password){
+//     if(userName != null && userName != ""){
+//         if(password != null){
+//             return "Login Successfull"
+//         }
+//         else{
+//             return "Password Required"
+//         }
+//     }
+//     else{
+//         return "UserName Required"
+//     }
+// }
 
-// console.log(loginCheck("Radhey","rad@123"))
-console.log(loginCheck("","123456"))
+// // console.log(loginCheck("Radhey","rad@123"))
+// console.log(loginCheck("","123456"))
+
+// 6) trafficLight
+
+// function trafficLight(colour){
+//     switch(colour){
+//         case "red":
+//             return "stop";
+//         case "yellow":
+//             return "Get Ready";
+//         case "green":
+//             return "Go";
+//         default:
+//             return "Invaliad Colour"
+//     }
+// }
+
+// console.log(trafficLight("orange"))
+
+// 7) checkAccess
+
+// function checkAccess(role){
+//     switch(role){
+//         case "admin":
+//             return "Full Access"
+//         case "editor":
+//             return "Edit Access"
+//         case "viewer":
+//             return "View Only"
+//         default :
+//             return "No Access"
+//     }
+// }
+
+// console.log(checkAccess("admin"))
+// console.log(checkAccess("viewer"))
+
+
+
+
+
