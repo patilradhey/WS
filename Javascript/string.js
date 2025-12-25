@@ -36,15 +36,35 @@
 
 //5) write function to find largest of 3 numbers 
 
-
-function largestNum(a,b,c){
-    if(a>b && a>c){
-        return a;
-    }else if(b>a && b>c){
-        return b;
-    }else{
-        return c;
-    } 
+// function largestNum(a,b,c){
+//     if(a>b && a>c){
+//         return a;
+//     }else if(b>a && b>c){
+//         return b;
+//     }else{
+//         return c;
+//     } 
     
+// }
+// console.log(largestNum(560,50,730));
+
+// 6) Count the Number of Vowels in a String
+
+function countVowels(str) {
+  const vowels = "aeiouAEIOU";
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (vowels.includes(str[i])) {
+      count++;
+    }
+  }
+  return count;
 }
-console.log(largestNum(560,50,730));
+
+
+
+// 7)  Replace All Spaces in a String with Hyphens
+
+// let text = "M S Dhoni is the best captain.";
+// let result = text.replaceAll(" ", "-");
+// console.log(result);
